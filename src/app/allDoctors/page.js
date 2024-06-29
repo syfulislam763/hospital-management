@@ -1,42 +1,25 @@
-import OurService from '@/components/OurService';
-import Header from '../components/Header'
+import {doctorsInformation} from '../../data/doctorsInformation'
+import DoctorCard from '@/components/DoctorCard'
+import style1 from '../../components/components.module.css'
+import style from '../page.module.css'
+import Header from '../../components/Header'
 import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import style from './page.module.css'
-import {services, hospital, ambulance, specializedDoctor, bloodDoner} from '../data/data'
 
-import Image from 'next/image';
+export default function allDoctors(){
+    return (<div style={{backgroundColor: '#eef6fa'}}>
+        
+        <div className={style.container}>
+            <Header/>
+        </div>
 
-export default function Home() {
-  return (
-    <div>
-      <div className={style.container}>
-        <Header/>
-      </div>
+        <div className={style1.doctorCardContainer}>
+            {doctorsInformation.map(doctor => (<DoctorCard doctor={doctor}/>))}
+        </div>
 
-      <div className={style.serviceContainer}>
-        <div style={{height:'50px'}}></div>
-
-        <OurService title='Our Services' services={services}/>
-        <div style={{height:'50px'}}></div>
-
-        <OurService title="Specialized Doctor's" services={specializedDoctor}/>
-        <div style={{height:'50px'}}></div>
-
-        <OurService title='Hospital & Diagnostic' services={hospital}/>
-        <div style={{height:'50px'}}></div>
-
-        <OurService title='Blood Donor' services={bloodDoner}/>
-        <div style={{height:'50px'}}></div>
-
-        <OurService title='Ambulance' services={ambulance}/>
-        <div style={{height:'50px'}}></div>
-
-      </div>
-
-      <div className={style.footerContainer}>
+        <div className={style.footerContainer}>
         <div className={style.footer}>
           <div className={style.footerBox}>
             <div className={style.footerTitle}>Hospital Management</div>
@@ -69,8 +52,5 @@ export default function Home() {
         </div>
       </div>
 
-      
-      
-    </div>
-  );
+    </div>)
 }
