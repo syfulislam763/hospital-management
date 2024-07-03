@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div>
+    <div style={{backgroundColor:'#ffff'}}>
       <div className={style.container}>
         <Header/>
       </div>

@@ -12,43 +12,43 @@ export let specializedDoctor = [
     },
     {
         image: doctorIcon,
-        title: 'Breast Surgeon',
+        title: 'Cardiac Vascular Surgeon',
+        description: 'Cardio vascular surgeons perform heart surgeries, heart transplants, ring implants, and press maker placement. Find an experienced cardiac vascular surgeon.'
+    },
+    {
+        image: doctorIcon,
+        title: 'Cardiologist-Heart Specialist ',
+        description: 'Cardiologists treat all heart related diseases including congenital heart defects, coronary artery disease, heart failure and valvular heart disease. Find an experienced cardiologist.'
+    },
+    {
+        image: doctorIcon,
+        title: 'Chest Specialist',
+        description: 'Chest specialists treat all types of chest diseases including asthma, lung diseases, emphysema, lung cancer, tuberculosis, bronchitis, pneumonia, covid-19. Find an experienced chest specialist.'
+    },
+    {
+        image: doctorIcon,
+        title: 'Child Cardiologist ',
+        description: 'Child Gastro-Liver treats all the stomach problems of Children including gastric and liver. Find Child Gastrology doctors.'
+    },
+    {
+        image: doctorIcon,
+        title: 'Child Gastro-Liver',
         description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
     },
     {
         image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
+        title: 'Child Neurology and Autism Specialist',
+        description: 'Child Neurology & Autism Specialist treats all abnormality in the brain, nerve system or muscle cells of a child. Find best Child Neurology & Autism Specialist.'
     },
     {
         image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
+        title: 'Diabetologist ',
+        description: 'Diabetologists treat only diabetic patients. Find a diabetic specialist.'
     },
     {
         image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
-    },
-    {
-        image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
-    },
-    {
-        image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
-    },
-    {
-        image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
-    },
-    {
-        image: doctorIcon,
-        title: 'Breast Surgeon',
-        description: 'Breast surgeons treat all breat problems, including breast tumors or breast cancer surgery.Find an experienced breast surgon'
+        title: 'Food and Nutrition Specialist',
+        description: 'Nutritionists help patients choose the right things to eat and plan meals. Find an experienced nutritionist.'
     }
 ]
 

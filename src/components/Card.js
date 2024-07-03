@@ -10,7 +10,7 @@ export default function Card({service}){
             <div style={{
                 backgroundColor:'#04aa6d',
                 height: '100px',
-                width: '100px',
+                width: '100%',
                 display:'flex',
                 flexDirection:'row',
                 alignItems:'center',

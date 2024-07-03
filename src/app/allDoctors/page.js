@@ -9,7 +9,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function allDoctors(){
-    return (<div style={{backgroundColor: '#eef6fa'}}>
+    return (<div style={{backgroundColor: '#ffff'}}>
         
         <div className={style.container}>
             <Header/>
